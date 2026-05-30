@@ -1,4 +1,4 @@
-GET http://localhost:8899/api/like
+GET http://localhost:8899/api/reg
 
 ###
 POST http://localhost:8899/api/auth/login HTTP/1.1
