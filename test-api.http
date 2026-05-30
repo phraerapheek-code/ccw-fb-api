@@ -1,0 +1,18 @@
+GET http://localhost:8899/api/like
+
+###
+POST http://localhost:8899/api/auth/login HTTP/1.1
+content-type: application/json
+
+{
+ "identity" : "andy@cc20.th",
+ "password" : "a1234"
+}
+
+###
+POST http://localhost:8899/api/post HTTP/1.1
+content-type: application/json
+
+{
+   "message": "sample"
+}
